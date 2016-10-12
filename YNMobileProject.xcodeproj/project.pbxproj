@@ -15,8 +15,9 @@
 		2E957A501DACE72D006E57C7 /* YNMobileProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E957A4F1DACE72D006E57C7 /* YNMobileProjectTests.swift */; };
 		2E957A5B1DACE72D006E57C7 /* YNMobileProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E957A5A1DACE72D006E57C7 /* YNMobileProjectUITests.swift */; };
 		2E957A781DACE7A3006E57C7 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E957A6C1DACE7A3006E57C7 /* BaseViewController.swift */; };
-		2E957A791DACE7A3006E57C7 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E957A6D1DACE7A3006E57C7 /* Constant.swift */; };
 		2E957A7A1DACE7A3006E57C7 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E957A701DACE7A3006E57C7 /* Reachability.swift */; };
+		2E957A861DAD124E006E57C7 /* YNConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E957A851DAD124E006E57C7 /* YNConstant.swift */; };
+		2E957A8A1DAD190B006E57C7 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E957A891DAD190B006E57C7 /* UIImage+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +52,9 @@
 		2E957A5A1DACE72D006E57C7 /* YNMobileProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YNMobileProjectUITests.swift; sourceTree = "<group>"; };
 		2E957A5C1DACE72D006E57C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E957A6C1DACE7A3006E57C7 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		2E957A6D1DACE7A3006E57C7 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		2E957A701DACE7A3006E57C7 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		2E957A851DAD124E006E57C7 /* YNConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YNConstant.swift; sourceTree = "<group>"; };
+		2E957A891DAD190B006E57C7 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 		2E957A691DACE7A3006E57C7 /* Categaries */ = {
 			isa = PBXGroup;
 			children = (
+				2E957A891DAD190B006E57C7 /* UIImage+Extension.swift */,
 			);
 			path = Categaries;
 			sourceTree = "<group>";
@@ -151,7 +154,6 @@
 			isa = PBXGroup;
 			children = (
 				2E957A6B1DACE7A3006E57C7 /* Bases */,
-				2E957A6D1DACE7A3006E57C7 /* Constant.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -167,6 +169,7 @@
 		2E957A6E1DACE7A3006E57C7 /* Config */ = {
 			isa = PBXGroup;
 			children = (
+				2E957A851DAD124E006E57C7 /* YNConstant.swift */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -431,8 +434,9 @@
 				2E957A3D1DACE72D006E57C7 /* ViewController.swift in Sources */,
 				2E957A3B1DACE72D006E57C7 /* AppDelegate.swift in Sources */,
 				2E957A781DACE7A3006E57C7 /* BaseViewController.swift in Sources */,
+				2E957A8A1DAD190B006E57C7 /* UIImage+Extension.swift in Sources */,
 				2E957A7A1DACE7A3006E57C7 /* Reachability.swift in Sources */,
-				2E957A791DACE7A3006E57C7 /* Constant.swift in Sources */,
+				2E957A861DAD124E006E57C7 /* YNConstant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -677,6 +681,7 @@
 				2E957A611DACE72D006E57C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E957A621DACE72D006E57C7 /* Build configuration list for PBXNativeTarget "YNMobileProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -685,6 +690,7 @@
 				2E957A641DACE72D006E57C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E957A651DACE72D006E57C7 /* Build configuration list for PBXNativeTarget "YNMobileProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -693,6 +699,7 @@
 				2E957A671DACE72D006E57C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
